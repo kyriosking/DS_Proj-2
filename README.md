@@ -5,24 +5,25 @@ I build this project in order to apply my Data Engineer knowledge in a real life
 
 ### Project structure:
 app    
-|-- template    
-|--- master.html : Home page
-|--- go.html : Model result displays in this page
-|-- run.py : Python source code to initialize Flask webapp 
+
+| - template    
+| |- master.html : Home page
+| |- go.html : Model result displays in this page
+|- run.py : Python source code to initialize Flask webapp 
 
 
 data    
 
-|-- disaster_categories.csv : Raw dataset
-|-- disaster_messages.csv : Raw dataset
-|-- process_data.py : Data cleaning pipeline    
-|-- DisasterResponse.db : Database to save clean data     
+|- disaster_categories.csv : Raw dataset
+|- disaster_messages.csv : Raw dataset
+|- process_data.py : Data cleaning pipeline    
+|- DisasterResponse.db : Database to save clean data     
 
 
 models   
 
-|-- train_classifier.py # Machine learning pipeline     
-|-- classifier.pkl # Result model     
+|- train_classifier.py # Machine learning pipeline     
+|- classifier.pkl # Result model     
 
 
 README.md    
